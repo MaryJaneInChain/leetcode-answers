@@ -13,11 +13,7 @@
 #include <stdbool.h>
 
 bool canWinNim(int n){
-	if(n%4!=0){
-		return true;
-	}else{
-		return false;
-	}
+	return (n%4!=0);
 }
 
 int main(void){
